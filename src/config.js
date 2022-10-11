@@ -7,19 +7,19 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = 'The Fuego Way';
 const description = 'A collection of NFTs with my favorite meme';
-const baseUri = 'ipfs://NewUriToReplace';
+const baseUri = 'ipfs://QmSJix7wezYqUSkyQqw1uBsamqLwg8EhLiGV5QFGNSxLBz';
 
-// const solanaMetadata = {
-//   symbol: 'TFW',
-//   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-//   external_url: 'https://github.com/genialtechie',
-//   creators: [
-//     {
-//       address: '0xee77CDf5FFDd685871F99846a960f3371f4f8276',
-//       share: 100,
-//     },
-//   ],
-// };
+const solanaMetadata = {
+  symbol: 'TFW',
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: 'https://github.com/genialtechie',
+  creators: [
+    {
+      address: '0xee77CDf5FFDd685871F99846a960f3371f4f8276',
+      share: 100,
+    },
+  ],
+};
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
